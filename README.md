@@ -1,3 +1,7 @@
+
+
+![Снимок экрана 2023-11-23 в 04 12 00](https://github.com/Danils-sd/welbex/assets/116029461/b41845cd-afa3-4c15-ae6c-6d59a3e02fbc)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
