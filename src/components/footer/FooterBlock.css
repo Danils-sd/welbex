@@ -1,0 +1,123 @@
+.futerBlock{
+    margin-top: 69px;
+    margin-left: 149px;
+    width: 1141px;
+    height: 315px;
+    padding-top: 55px;
+    display: flex;
+}
+
+.secF{
+    display: flex;
+    flex-direction: column;
+}
+
+.glavP{
+    color: var(--dark-gray, #656566);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.inSec{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ppSec{
+    margin-top: 10px;
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.sf{
+    margin-left: 98px;
+}
+
+.inSecSec{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightColumn{
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thf{
+    margin-left: 163px;
+    display: flex;
+    align-items: end;
+}
+
+.contactsF{
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.frft{
+    margin-top: 20px;
+}
+
+.anatFF{
+    margin-top: 70px;
+}
+.anatF{
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 320px){
+    .futerBlock{
+        margin-top: -35px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 598px;
+        background: var(--black, #000000);
+    }
+    .glavP{
+        font-size: 12px;
+    }
+    .ppSec{
+        font-size: 14px;
+    }
+    .ff{
+        margin-top: -15px;
+        margin-left: 15px;
+    }
+    .sf{
+        margin-left: 15px;
+        margin-top: 36px;
+    }
+    .thf{
+        margin-left: 15px;
+        margin-top: 30px;
+        align-items:baseline;
+    }
+}

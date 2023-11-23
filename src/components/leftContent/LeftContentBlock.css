@@ -1,0 +1,57 @@
+.leftContentBlock{
+    margin-top: 90px;
+    margin-left: 147px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.fir{
+    width: 362px;
+    color: #E4E5EA;
+    font-weight: 400;
+}
+
+.sec{
+    background: linear-gradient(180deg, #FCB045 20.99%, #FD1D1D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.ther{
+    margin-top: 30px;
+    margin-left: 1px;
+    width: 275px;
+    color: var(--light-text, #E4E5EA);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 320px){
+    .text{
+        font-size: 36px;
+    }
+    .leftContentBlock{
+        margin-top: 0px;
+        margin-left: 14px;
+    }
+    .fir{
+        margin-top: 10px;
+    }
+    .ther{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}

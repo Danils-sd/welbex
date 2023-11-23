@@ -1,0 +1,164 @@
+.rightContentBlock{
+    margin-top: 105px;
+    margin-left: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.rightMainText{
+    width: 400px;
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gradient{
+    background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.optionMenu{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 46px;
+    grid-row-gap: 30px;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.optionFM{
+    color: var(--light-text, #E4E5EA);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    
+}
+.optionM{
+    display: none;
+}
+.chertM{
+    background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.optionF{
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.optionS{
+    width: 140px;
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.optBtn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+
+    color: var(--light-text, #E4E5EA);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 320px){
+    .rightContentBlock{
+        margin-top: 50px;
+        margin-left: -15px;
+        align-items: center;
+    }
+    .rightMainText{
+        width: 279px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .gradient{
+        background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.9px;
+        text-transform: none;
+    }
+    .optionMenu{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 14px;
+        grid-row-gap: 15px;
+    }
+    .option{
+        display: none;
+    }
+    .optionM{
+        
+        display:contents;
+    }
+    /* .optionFM{
+        display: inline;
+    }
+    .chertM{
+        display:inline;
+    } */
+    .optBtn{
+        display: none;
+    }
+    .optionS{
+        display: none;
+    }
+}

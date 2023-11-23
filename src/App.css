@@ -1,0 +1,123 @@
+.App{
+  width: 1440px;
+  height: 980px;
+  background: var(--black, #0E1014);
+}
+.mainBody{
+  width: 1440px;
+  height: 894px;
+  padding-top: 46px;
+  
+}
+
+.mainContent{
+  display: flex;
+}
+
+.light{
+  position: absolute;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+
+.redL{
+  margin-left: -102px;
+  margin-top: 251px;
+  width: 311px;
+  height: 311px;
+  border-radius: 311px;
+  background: #961A1A;
+}
+
+.purplL{
+  margin-left: 602px;
+  margin-top: -154px;
+  width: 259px;
+  height: 259px;
+  border-radius: 259px;
+  background: #833AB4;
+}
+
+.ball{
+  position: absolute;
+  backdrop-filter: blur(2px);
+}
+
+.purpl{
+  margin-top: -2px;
+  margin-left: 868px;
+  width: 60px;
+  height: 60px;
+  fill: radial-gradient(82.3% 82.3% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.21) 78.59%, rgba(86, 24, 128, 0.23) 100%);
+  filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25))  blur(5px);
+}
+
+.red {
+  margin-top: 83px;
+  margin-left: 409px;
+  width: 83px;
+  height: 83px;
+  fill: radial-gradient(82.3% 82.3% at 27.25% 26.5%, rgba(255, 208, 208, 0.54) 0%, rgba(212, 93, 93, 0.26) 59.67%, rgba(167, 49, 49, 0.25) 78.59%, rgba(130, 25, 25, 0.25) 100%);
+  filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+}
+
+.redSmall{
+  margin-top: 547px;
+  margin-left: 851px;
+  width: 28px;
+  height: 28px;
+  fill: radial-gradient(82.3% 82.3% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.25) 59.67%, rgba(167, 49, 49, 0.26) 78.59%, rgba(130, 25, 25, 0.23) 100%);
+  filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+}
+
+@media screen and (max-width: 320px){
+  .App{
+    width: 320px;
+    height: 1115px;
+    background: var(--black, #0E1014);
+  }
+  .redL{
+    margin-top: 241px;
+    margin-left: -55px;
+    width: 211px;
+    height: 210px;
+  }
+
+  .purplL{
+    margin-top: 107px;
+    margin-left: 258px;
+    width: 259px;
+    height: 259px;
+  }
+
+  .red{
+    margin-top: 469px;
+    margin-left: 29px;
+    width: 43px;
+    height: 43px;
+  }
+  .redSmall{
+    margin-top: 563px;
+    margin-left: 278px;
+    width: 18px;
+    height: 18px;
+    display: none;
+  }
+  .purpl{
+    margin-top: 236px;
+    margin-left: 294px;
+    width: 40px;
+    height: 40px;
+  }
+  .mainBody{
+    width: 320px;
+    height: 1115px;
+    padding-top: 46px;
+  }
+  .mainContent{
+    margin-top: -20px;
+    flex-direction: column;
+    width: 320px;
+    height: 445px;
+  }
+}

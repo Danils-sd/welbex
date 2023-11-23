@@ -1,0 +1,111 @@
+.HeaderBlock{
+    margin-left: 150px;
+    width: 1140px;
+    height: 73px;
+    display: flex;
+}
+
+.logoBlock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+}
+
+.logoOne{
+    width: 35px;
+    height: 24px;
+}
+
+.logoTwo{
+    width: 97px;
+    height: 15px;
+}
+
+.logoText{
+    margin-top: 14px;
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 140px;
+}
+
+.navBar{
+    margin-top: 15px;
+    margin-left: 52px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.navBtn{
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.numberHed{
+    margin-top: 15px;
+    margin-left: 137px;
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contacts{
+    margin-top: 14px;
+    margin-left: 47px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contact{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 320px){
+    .HeaderBlock{
+        margin-left: 0px;
+    }
+    .logoBlock{
+        display: none;
+    }
+    .lastnavbtn{
+        display: none;
+    }
+    .numberHed{
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .logoSVDS{
+        display: none;
+    }
+    .navBar{
+        margin-top: -46px;
+        margin-left: 0px;
+        width: 320px;
+        height: 55px;
+        background: var(--black, #000000);
+        gap: 16px;
+    }
+    .navBtn{
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+}
